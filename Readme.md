@@ -1,9 +1,9 @@
 Practica 1: Conversor de Temperaturas
 =====================================
 
-**Asignatura:** Procesadores del Lenguaje
-**Alumno:** Daniel E: Quijada Díaz.
-**Grado en Ingeniería Informática. ETSII. ULL.**
+* **Asignatura:** Procesadores del Lenguaje
+* **Alumno:** Daniel E: Quijada Díaz.
+* **Grado en Ingeniería Informática. ETSII. ULL.**
 
 #Utilización
 
