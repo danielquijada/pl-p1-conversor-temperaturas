@@ -1,5 +1,16 @@
 "use strict"; // Use ECMAScript 5 strict mode in browsers that support it
-//expesion regular: /^\s*([-+]?\d+(?:\.\d+)?(?:[eE][+-]?\d+)?)\s*([cCfF])\s*$/
+function toggleTests () {
+  var element = document.getElementById('frame-pruebas');
+  if (element.showed="false") {
+    document.getElementById('frame-pruebas').style.display = "inline-block";
+    element.showed("true");
+  }
+  else {
+    element.style.display = "none";
+    element.showed("false");
+  }
+}
+
 function calculate() {
   var result;
   var result2;
