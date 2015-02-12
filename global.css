@@ -1,0 +1,57 @@
+[~/srcPLgrado/temperature(master)]$ cat global.css
+
+#converted  {
+   font-weight: bold;
+   font-size:large;
+}
+
+span[temp="cold"] {
+   color: #729DC8;
+}
+
+span[temp="warm"] {
+   color: #5CBA0F;
+}
+
+span[temp="hot"] {
+   color: #bA1124;
+}
+
+input {
+   text-align: center;       /* Align input to the right  */
+   border: none;
+   border-radius: 5px 5px 5px 5px;
+   padding: 5px  5px;
+   font-size:large;
+   font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+body {
+   text-align: center;
+    background-color: #191918/*#b0c4de*/;  /* blue */
+    font-size:large;
+    font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+table {
+    width:75%;
+    margin: auto;
+}
+
+th, td      {
+   vertical-align: top;
+   text-align: center;
+   font-size:large;
+   color: #7A7A7A;
+   padding: 15px  15px;
+}
+
+h1 {
+      font-weight: normal;
+      font-family: "Helvetica", cursive;
+      background: #3F7742 /*#3C5681*/;
+      padding: 5px 15px;
+      color: #CECECE;
+      display:inline-block;
+      border-radius: 5px 5px 5px 5px;
+}
