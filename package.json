@@ -1,0 +1,24 @@
+{
+  "name": "pl-p1-conversor-temperaturas",
+  "version": "0.0.0",
+  "description": "Conversor de Temperaturas",
+  "main": "temperature.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielquijada/pl-p1-conversor-temperaturas.git"
+  },
+  "author": "Daniel E. Quijada Diaz",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/danielquijada/pl-p1-conversor-temperaturas/issues"
+  },
+  "devDependencies": {
+    "chai": "~2.0.0"
+  }
+}

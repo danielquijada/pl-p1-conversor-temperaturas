@@ -1,8 +1,13 @@
-[~/srcPLgrado/temperature(master)]$ cat global.css
 
 #converted  {
+   text: "Salida"
    font-weight: bold;
-   font-size:large;
+   font-size:larger;
+   height:10%;
+}
+
+table + iframe {
+   margin: 10%;
 }
 
 span[temp="cold"] {
@@ -17,6 +22,13 @@ span[temp="hot"] {
    color: #bA1124;
 }
 
+iframe.frame-pruebas {
+   width:75%;
+   height: 30%;
+   background-color: white;
+   align: center;
+}
+
 input {
    text-align: center;       /* Align input to the right  */
    border: none;
@@ -26,10 +38,17 @@ input {
    font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
 }
 
+html
+{
+   background-image: "./img/fondo.jpg"
+  background-repeat: no-repeat;
+  min-height:100%;
+  background-size:cover
+}
+
 body {
    text-align: center;
-    background-color: #191918/*#b0c4de*/;  /* blue */
-    font-size:large;
+   font-size:large;
     font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
 }
 
@@ -47,9 +66,9 @@ th, td      {
 }
 
 h1 {
-      font-weight: normal;
-      font-family: "Helvetica", cursive;
-      background: #3F7742 /*#3C5681*/;
+      font-weight: large;
+      font-family: "Georgia", bold;
+      background: ;
       padding: 5px 15px;
       color: #CECECE;
       display:inline-block;

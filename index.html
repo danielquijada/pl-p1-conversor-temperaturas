@@ -6,19 +6,21 @@
 
       <script type="text/javascript" src="temperature.js"></script>
    </head>
-   <body>
+   <body background="./img/fondo.jpg">
    <h1>Temperature Converter</h1>
       <table>
          <tr>
             <th>Introduzca la temperatura a convertir:</th>
-            <th><input id="original" onchange="calculate();"></th>
+            <th><input id="original" onchange="calculate();" autofocus></th>
          </tr>
          <tr>
             <th colspan=2>Converted Temperature:</th>
          </tr>
          <tr>
-            <th colspan=2><span class="output" temp="hot" id="converted"></span></th>
+            <th colspan=2><span class="output" temp="warm" id="converted">Introduce una temperatura!</span></th>
          </tr>
       </table>
+
+      <iframe class="frame-pruebas" src=./tests/index.html>
    </body>
 </html>
